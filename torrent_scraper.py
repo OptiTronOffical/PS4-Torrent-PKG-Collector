@@ -14,7 +14,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 BASE_URL = "https://love-games1.net"
 SAVE_DIR = "results"
 LOG_FILE = "collectedfiles.txt"
-TOTAL_PAGES = 144
+TOTAL_PAGES = 171
 MAX_WORKERS = 10  # Number of threads for parallelism
 
 os.makedirs(SAVE_DIR, exist_ok=True)
